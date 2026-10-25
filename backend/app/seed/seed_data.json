@@ -1,0 +1,876 @@
+{
+  "site": {
+    "name": "Afrimpact Consultancy",
+    "tagline": "The gateway to unlocking Africa's limitless potential.",
+    "intro": "The gateway to unlocking Africa's limitless potential. Whether you're seeking groundbreaking investment opportunities or unforgettable travel experiences, we provide tailored solutions backed by expertise and passion. Discover Africa with Afrimpact Consultancy. Together, let's create impact.",
+    "typewriter": [
+      "Invest in Africa.",
+      "Explore Africa.",
+      "Create impact."
+    ],
+    "explore_title": "Explore Africa with confidence",
+    "explore_text": "Our consultancy blends strategic market entry and regulatory support with personalized travel planning, offering a seamless gateway for business growth and authentic experiences across the continent.",
+    "about": "Afrimpact Consultancy connects investors and travelers to Africa’s opportunities through tailored guidance and cultural insight. We empower impactful decisions across the continent with clarity, trust, and expertise.",
+    "vision": "To be the leading consultancy firm for investment and travel advisory services in Africa, renowned for expertise, trust, and transformative outcomes.",
+    "mission": "Fostering investors and travelers by providing real-time information and expert guidance on navigating Africa’s diverse opportunities, fostering impactful investments, and enriching travel experiences.",
+    "values": [
+      "Integrity",
+      "Innovation",
+      "Cultural Enrichment",
+      "Commitment to Sustainable Development"
+    ],
+    "contact": {
+      "email": "info@afrimpact.com",
+      "phone": "+251900300931",
+      "address": "Bole Road, Addis Ababa, Ethiopia",
+      "hours": "Mon – Fri, 8:30 AM – 5:30 PM (EAT)"
+    },
+    "socials": {
+      "facebook": "https://facebook.com/",
+      "youtube": "https://youtube.com/",
+      "x": "https://x.com/",
+      "linkedin": "https://linkedin.com/",
+      "instagram": "https://instagram.com/"
+    }
+  },
+  "home_cards": [
+    {
+      "title": "INVESTMENT CONSULTING",
+      "category": "investment",
+      "bullets": [
+        "Market Entry Strategies",
+        "Regulatory and Compliance Guide"
+      ]
+    },
+    {
+      "title": "TRAVEL ADVISORY",
+      "category": "travel",
+      "bullets": [
+        "Tailor Itineraries",
+        "Visa and Permit Support"
+      ]
+    },
+    {
+      "title": "OTHER SERVICES",
+      "category": "other",
+      "bullets": [
+        "Feasibility assessments for combined investment and travel opportunities"
+      ]
+    }
+  ],
+  "service_categories": [
+    {
+      "category": "investment",
+      "title": "Investment Consulting",
+      "bullets": [
+        "Market entry strategies for key African sectors.",
+        "Regulatory and compliance guidance across African countries.",
+        "Stakeholder engagement with government bodies and local partners."
+      ],
+      "image": "images/services-hero.jpg"
+    },
+    {
+      "category": "travel",
+      "title": "Travel Advisory",
+      "bullets": [
+        "Tailored itineraries for leisure and business travelers.",
+        "Assistance with visa processes and travel permits.",
+        "Connecting travelers with authentic cultural experiences and eco-tourism destinations."
+      ],
+      "image": "images/travel-split.jpg"
+    },
+    {
+      "category": "other",
+      "title": "Other Services",
+      "bullets": [
+        "Feasibility assessments for combined investment and travel opportunities.",
+        "Risk and viability analysis for sustainable development projects."
+      ],
+      "image": "images/other-split.jpg"
+    }
+  ],
+  "services": [
+    {
+      "slug": "market-entry-strategies",
+      "category": "investment",
+      "order": 1,
+      "title": "Market Entry Strategies",
+      "image": "images/svc-market-entry.jpg",
+      "summary": "Data-backed entry plans for Africa's fastest-growing sectors.",
+      "bullets": [
+        "Comprehensive analysis of high-potential sectors (e.g., agriculture, manufacturing, renewable energy).",
+        "Feasibility studies tailored to client projects"
+      ]
+    },
+    {
+      "slug": "stakeholder-engagement",
+      "category": "investment",
+      "order": 2,
+      "title": "Stakeholder Engagement",
+      "image": "images/svc-stakeholder.jpg",
+      "summary": "Step-by-step assistance with licensing, taxation, and governance compliance.",
+      "bullets": []
+    },
+    {
+      "slug": "risk-and-viability-assessments",
+      "category": "investment",
+      "order": 3,
+      "title": "Risk and Viability Assessments",
+      "image": "images/svc-risk.jpg",
+      "summary": "Facilitate partnerships with local businesses, suppliers, and government agencies.",
+      "bullets": []
+    },
+    {
+      "slug": "regulatory-and-compliance",
+      "category": "investment",
+      "order": 4,
+      "title": "Regulatory & Compliance Guidance",
+      "image": "images/svc-regulatory.jpg",
+      "summary": "Navigate investment codes, incentives and permits across African jurisdictions with confidence.",
+      "bullets": [
+        "Investment licence and business registration support",
+        "Tax incentives and customs duty exemptions"
+      ]
+    },
+    {
+      "slug": "tailored-itineraries",
+      "category": "travel",
+      "order": 1,
+      "title": "Tailored Itineraries",
+      "image": "images/svc-itineraries.jpg",
+      "summary": "Develop customized travel plans for leisure, business, and cultural exploration.",
+      "bullets": []
+    },
+    {
+      "slug": "visa-and-permit-support",
+      "category": "travel",
+      "order": 2,
+      "title": "Visa and Permit Support",
+      "image": "images/svc-visa.jpg",
+      "summary": "Assist with visa applications, permits, and travel documentation.",
+      "bullets": []
+    },
+    {
+      "slug": "cultural-experience-coordination",
+      "category": "travel",
+      "order": 3,
+      "title": "Cultural Experience Coordination",
+      "image": "images/svc-cultural.jpg",
+      "summary": "Connect travelers with authentic African experiences, including eco-tourism and cultural heritage sites.",
+      "bullets": []
+    },
+    {
+      "slug": "business-travel-integration",
+      "category": "travel",
+      "order": 4,
+      "title": "Business Travel Integration",
+      "image": "images/svc-business-travel.jpg",
+      "summary": "Offer combined travel and investment consultation services for business professionals visiting Africa.",
+      "bullets": []
+    }
+  ],
+  "opportunities": [
+    {
+      "slug": "agro-processing-hub-oromia",
+      "title": "Agro-Processing Hub",
+      "category": "investment",
+      "type": "Investment",
+      "country": "Ethiopia",
+      "location": "Adama, Oromia",
+      "sector": "Agriculture",
+      "image": "images/opp-agro.jpg",
+      "investment_range": "$2M – $8M",
+      "deadline": "2026-12-15",
+      "posted_at": "2026-09-24",
+      "is_featured": true,
+      "summary": "Add value to Ethiopia's agricultural output with export-ready processing on the Addis–Djibouti corridor.",
+      "bullets": [
+        "Comprehensive analysis of high-potential sectors (e.g., agriculture, manufacturing, renewable energy).",
+        "Feasibility studies tailored to client projects"
+      ],
+      "body": [
+        "Ethiopia is Africa's largest coffee producer and a leading exporter of oilseeds, pulses and horticulture — yet most produce still leaves the country unprocessed. This agro-processing hub near Adama targets that value-add gap.",
+        "The site sits on the Addis–Djibouti economic corridor with direct rail access to the port, giving processors a competitive logistics edge for export markets in the Middle East and Europe.",
+        "Afrimpact supports investors with sector analysis, site due diligence, licensing through the Ethiopian Investment Commission and introductions to cooperative unions for secure raw-material supply."
+      ],
+      "highlights": [
+        "Duty-free import of capital goods",
+        "Up to 5-year income tax holiday",
+        "Rail link to Djibouti port",
+        "Access to 15,000+ smallholder farmers"
+      ]
+    },
+    {
+      "slug": "stakeholder-engagement-industrial-parks",
+      "title": "Industrial Park Manufacturing",
+      "category": "investment",
+      "type": "Investment",
+      "country": "Ethiopia",
+      "location": "Hawassa, Sidama",
+      "sector": "Manufacturing",
+      "image": "images/opp-industrial.jpg",
+      "investment_range": "$5M – $20M",
+      "deadline": "2027-01-30",
+      "posted_at": "2026-09-18",
+      "is_featured": true,
+      "summary": "Plug-and-play factory space in a flagship eco-industrial park built for export manufacturers.",
+      "bullets": [
+        "Step-by-step assistance with licensing, taxation, and governance compliance."
+      ],
+      "body": [
+        "Plug-and-play factory sheds are available in one of East Africa's flagship eco-industrial parks, built for textile, apparel and light-manufacturing exporters.",
+        "Tenants benefit from one-stop-shop government services on site, a zero-liquid-discharge treatment plant and preferential market access under multiple trade agreements.",
+        "We coordinate every stakeholder — park administration, customs, labour offices and local suppliers — so your operation is compliant and running faster."
+      ],
+      "highlights": [
+        "Ready-built factory sheds",
+        "One-stop government services",
+        "Renewable-powered utilities",
+        "Export-oriented incentives"
+      ]
+    },
+    {
+      "slug": "solar-mini-grids-kenya",
+      "title": "Solar Mini-Grid Portfolio",
+      "category": "investment",
+      "type": "Investment",
+      "country": "Kenya",
+      "location": "Rift Valley, Kenya",
+      "sector": "Renewable Energy",
+      "image": "images/opp-solar.jpg",
+      "investment_range": "$1.5M – $6M",
+      "deadline": "2026-11-20",
+      "posted_at": "2026-09-12",
+      "is_featured": false,
+      "summary": "Equity and blended-finance partners sought for a portfolio of licensed rural solar mini-grids.",
+      "bullets": [
+        "Facilitate partnerships with local businesses, suppliers, and government agencies."
+      ],
+      "body": [
+        "A portfolio of 12 licensed solar mini-grid sites serving rural trading centres is seeking equity and blended-finance partners.",
+        "Kenya's regulatory framework for mini-grids is among the most mature on the continent, with clear tariff approval processes and results-based financing from development partners.",
+        "Afrimpact provides independent risk and viability assessment, including demand studies, tariff modelling and ESG screening."
+      ],
+      "highlights": [
+        "12 licensed sites",
+        "Results-based grant co-funding",
+        "Strong mobile-money payment adoption",
+        "20-year asset life"
+      ]
+    },
+    {
+      "slug": "fintech-partnership-rwanda",
+      "title": "Fintech Partnership",
+      "category": "investment",
+      "type": "Partnership",
+      "country": "Rwanda",
+      "location": "Kigali, Rwanda",
+      "sector": "Financial Services",
+      "image": "images/opp-fintech.jpg",
+      "investment_range": "$500K – $3M",
+      "deadline": "2026-12-01",
+      "posted_at": "2026-09-08",
+      "is_featured": false,
+      "summary": "A licensed Kigali payments company seeks a strategic partner for East African expansion.",
+      "bullets": [
+        "Regulatory sandbox access through the Kigali International Financial Centre",
+        "Pan-African payment corridor expansion"
+      ],
+      "body": [
+        "A licensed digital-payments company in Kigali is looking for a strategic partner to expand merchant payments into the wider East African Community.",
+        "Rwanda's regulatory sandbox and investor-friendly financial-centre regime make it an ideal launchpad for fintech products targeting regional markets.",
+        "We guide partners through central-bank licensing, data-protection requirements and cross-border compliance."
+      ],
+      "highlights": [
+        "Operating licence in place",
+        "30,000+ active merchants",
+        "EAC expansion roadmap",
+        "Sandbox-ready product pipeline"
+      ]
+    },
+    {
+      "slug": "mixed-use-real-estate-addis",
+      "title": "Mixed-Use Real Estate",
+      "category": "investment",
+      "type": "Investment",
+      "country": "Ethiopia",
+      "location": "Addis Ababa",
+      "sector": "Real Estate",
+      "image": "images/opp-realestate.jpg",
+      "investment_range": "$10M – $35M",
+      "deadline": "2027-02-28",
+      "posted_at": "2026-08-30",
+      "is_featured": false,
+      "summary": "Grade-A offices and serviced apartments in Africa's diplomatic capital.",
+      "bullets": [
+        "Grade-A office and serviced apartments",
+        "Located on the new Addis corridor development"
+      ],
+      "body": [
+        "Addis Ababa hosts the African Union and over 100 diplomatic missions, driving sustained demand for quality office space and serviced residences.",
+        "This mixed-use development combines Grade-A offices, retail and serviced apartments along a newly upgraded city corridor.",
+        "Afrimpact supports land-lease review, partner vetting and structuring of foreign-currency returns."
+      ],
+      "highlights": [
+        "Strong diplomatic tenant demand",
+        "Newly upgraded corridor",
+        "Phased development plan",
+        "Local JV partner identified"
+      ]
+    },
+    {
+      "slug": "eco-lodge-development-wonchi",
+      "title": "Eco-Lodge Development",
+      "category": "investment",
+      "type": "Investment",
+      "country": "Ethiopia",
+      "location": "Wonchi, Oromia",
+      "sector": "Tourism",
+      "image": "images/opp-lodge.jpg",
+      "investment_range": "$1M – $4M",
+      "deadline": "2026-12-20",
+      "posted_at": "2026-08-22",
+      "is_featured": false,
+      "summary": "A community-partnered eco-lodge at one of Ethiopia's most striking crater lakes.",
+      "bullets": [
+        "Community-based tourism partnership",
+        "Growing domestic and international visitor numbers"
+      ],
+      "body": [
+        "Wonchi crater lake is one of the most striking landscapes in Ethiopia and a fast-growing destination for domestic and international visitors.",
+        "The opportunity is a 40-key eco-lodge developed in partnership with the local community association, following low-impact building standards.",
+        "We combine investment advisory and travel expertise to validate demand, design the guest experience and secure permits."
+      ],
+      "highlights": [
+        "Community partnership model",
+        "Low-impact design",
+        "2.5 hours from Addis Ababa",
+        "Year-round visitor season"
+      ]
+    },
+    {
+      "slug": "entoto-addis-ababa",
+      "title": "Entoto, Addis Ababa",
+      "category": "travel",
+      "type": "Travel",
+      "country": "Ethiopia",
+      "location": "Addis Ababa",
+      "sector": "Nature & Heritage",
+      "image": "images/travel-entoto.jpg",
+      "investment_range": null,
+      "deadline": null,
+      "posted_at": "2026-09-20",
+      "is_featured": true,
+      "summary": "Eucalyptus forests, panoramic city views and historic churches on the hills above the capital.",
+      "bullets": [
+        "Hiking and mountain-bike trails",
+        "Entoto Maryam Church and museum",
+        "Adventure park and restaurants"
+      ],
+      "body": [
+        "Rising more than 3,000 metres above sea level, the Entoto hills offer cool air, eucalyptus forests and sweeping views over Addis Ababa.",
+        "The recently developed Entoto Park adds walking trails, cafés, an adventure park and cultural spaces, making it a perfect half-day escape for business travelers and families alike.",
+        "Afrimpact can arrange guided hikes, cultural visits and transport as part of a tailored Addis Ababa itinerary."
+      ],
+      "highlights": [
+        "30 minutes from central Addis",
+        "Best time: October – May",
+        "Half-day or full-day trip",
+        "Suitable for all ages"
+      ]
+    },
+    {
+      "slug": "wonchi-oromia",
+      "title": "Wonchi, Oromia",
+      "category": "travel",
+      "type": "Travel",
+      "country": "Ethiopia",
+      "location": "West Shewa, Oromia",
+      "sector": "Nature & Eco-tourism",
+      "image": "images/travel-wonchi.jpg",
+      "investment_range": null,
+      "deadline": null,
+      "posted_at": "2026-09-15",
+      "is_featured": false,
+      "summary": "A volcanic crater lake with hot springs, island monastery and community-run horse treks.",
+      "bullets": [
+        "Boat trip to Cherkos monastery island",
+        "Horse riding with local guides",
+        "Hot springs and waterfalls"
+      ],
+      "body": [
+        "Wonchi is a collapsed volcanic caldera holding a pristine crater lake, surrounded by farmland, forest and small villages.",
+        "Visitors can ride down to the lake with community guides, take a boat to the island monastery of Cherkos and relax at nearby hot springs.",
+        "It pairs perfectly with the Wonchi eco-lodge investment opportunity for investors who want to see the destination first-hand."
+      ],
+      "highlights": [
+        "2.5 hours from Addis Ababa",
+        "Community-based tourism",
+        "Best time: September – February",
+        "Overnight lodges available"
+      ]
+    },
+    {
+      "slug": "fasiledes-gondar",
+      "title": "Fasiledes, Gonder",
+      "category": "travel",
+      "type": "Travel",
+      "country": "Ethiopia",
+      "location": "Gondar, Amhara",
+      "sector": "History & Heritage",
+      "image": "images/travel-fasiledes.jpg",
+      "investment_range": null,
+      "deadline": null,
+      "posted_at": "2026-09-10",
+      "is_featured": false,
+      "summary": "The UNESCO-listed royal enclosure of Fasil Ghebbi, the 'Camelot of Africa'.",
+      "bullets": [
+        "Fasil Ghebbi royal enclosure",
+        "Fasilides' Bath and Timkat celebrations",
+        "Debre Birhan Selassie church"
+      ],
+      "body": [
+        "Founded in the 17th century by Emperor Fasilides, Gondar was Ethiopia's royal capital for more than two centuries.",
+        "The Fasil Ghebbi fortress-city is a UNESCO World Heritage Site, and Fasilides' Bath hosts one of the most spectacular Timkat (Epiphany) celebrations in the country each January.",
+        "We arrange expert heritage guides, domestic flights and accommodation as part of Ethiopia's Historic Route."
+      ],
+      "highlights": [
+        "UNESCO World Heritage Site",
+        "Gateway to the Simien Mountains",
+        "Best time: October – March",
+        "Timkat festival in January"
+      ]
+    },
+    {
+      "slug": "jegol-harar",
+      "title": "Jegol, Harar",
+      "category": "travel",
+      "type": "Travel",
+      "country": "Ethiopia",
+      "location": "Harar, Harari",
+      "sector": "Culture & Heritage",
+      "image": "images/travel-jegol.jpg",
+      "investment_range": null,
+      "deadline": null,
+      "posted_at": "2026-09-05",
+      "is_featured": false,
+      "summary": "The walled city of Harar — colourful alleys, historic mosques and lively markets.",
+      "bullets": [
+        "UNESCO-listed Harar Jugol walls",
+        "Traditional Harari houses",
+        "Evening hyena feeding tradition"
+      ],
+      "body": [
+        "Harar Jugol is a UNESCO World Heritage fortified city with 368 alleyways squeezed into one square kilometre.",
+        "Its colourful markets, historic mosques and traditional Harari houses make it one of the most atmospheric destinations in the Horn of Africa.",
+        "Afrimpact arranges local guides, cultural home visits and connections for travelers extending their trip to Dire Dawa."
+      ],
+      "highlights": [
+        "UNESCO World Heritage Site",
+        "Rich culinary and coffee culture",
+        "Best time: October – March",
+        "Fly to Dire Dawa then 1 hour by road"
+      ]
+    },
+    {
+      "slug": "simien-mountains",
+      "title": "Simien Mountains",
+      "category": "travel",
+      "type": "Travel",
+      "country": "Ethiopia",
+      "location": "North Gondar, Amhara",
+      "sector": "Nature & Trekking",
+      "image": "images/travel-simien.jpg",
+      "investment_range": null,
+      "deadline": null,
+      "posted_at": "2026-08-28",
+      "is_featured": false,
+      "summary": "Dramatic escarpments, gelada monkeys and some of Africa's finest multi-day treks.",
+      "bullets": [
+        "Multi-day trekking routes",
+        "Endemic wildlife: gelada, walia ibex",
+        "Ras Dashen summit option"
+      ],
+      "body": [
+        "The Simien Mountains National Park is a UNESCO site of jagged peaks, deep valleys and sheer escarpments.",
+        "Trekkers regularly encounter troops of gelada monkeys and may spot the rare walia ibex and Ethiopian wolf.",
+        "We organise permits, scouts, mules and lodge or camping logistics for treks of 2 to 10 days."
+      ],
+      "highlights": [
+        "UNESCO World Heritage Site",
+        "Treks from 2 to 10 days",
+        "Best time: September – November",
+        "Lodge and camping options"
+      ]
+    },
+    {
+      "slug": "danakil-depression",
+      "title": "Danakil Depression",
+      "category": "travel",
+      "type": "Travel",
+      "country": "Ethiopia",
+      "location": "Afar Region",
+      "sector": "Adventure",
+      "image": "images/travel-danakil.jpg",
+      "investment_range": null,
+      "deadline": null,
+      "posted_at": "2026-08-20",
+      "is_featured": false,
+      "summary": "Lava lakes, salt flats and otherworldly colours in one of the hottest places on Earth.",
+      "bullets": [
+        "Erta Ale lava lake",
+        "Dallol hydrothermal field",
+        "Salt caravans of Lake Asale"
+      ],
+      "body": [
+        "The Danakil Depression lies more than 100 metres below sea level and is one of the most geologically active places on the planet.",
+        "Expeditions visit the glowing Erta Ale lava lake, the acid-yellow springs of Dallol and the salt flats where Afar caravans still cut salt blocks by hand.",
+        "We work only with licensed operators and include security briefings, experienced drivers and full camping support."
+      ],
+      "highlights": [
+        "3 – 4 day expeditions",
+        "Best time: November – February",
+        "Licensed operators only",
+        "Departs from Mekelle or Semera"
+      ]
+    },
+    {
+      "slug": "investment-travel-feasibility",
+      "title": "Additional Opportunities",
+      "category": "other",
+      "type": "Advisory",
+      "country": "Pan-African",
+      "location": "Multiple countries",
+      "sector": "Advisory",
+      "image": "images/opp-jv.jpg",
+      "investment_range": "On request",
+      "deadline": null,
+      "posted_at": "2026-09-01",
+      "is_featured": false,
+      "summary": "Feasibility assessments for combined investment and travel opportunities.",
+      "bullets": [
+        "Feasibility assessments for combined investment and travel opportunities."
+      ],
+      "body": [
+        "Many of the best opportunities in Africa sit at the intersection of investment and travel — hospitality, eco-tourism, conference facilities and agri-tourism among them.",
+        "Our combined feasibility assessments evaluate market demand, visitor flows, regulatory requirements and financial returns in one integrated study.",
+        "Share your idea with us and we will scope an assessment tailored to your timeline and budget."
+      ],
+      "highlights": [
+        "Integrated market and visitor analysis",
+        "Financial modelling",
+        "Regulatory mapping",
+        "Site visit coordination"
+      ]
+    },
+    {
+      "slug": "sustainable-project-risk-analysis",
+      "title": "Additional Opportunities",
+      "category": "other",
+      "type": "Advisory",
+      "country": "Pan-African",
+      "location": "Multiple countries",
+      "sector": "Sustainability",
+      "image": "images/opp-feasibility.jpg",
+      "investment_range": "On request",
+      "deadline": null,
+      "posted_at": "2026-08-25",
+      "is_featured": false,
+      "summary": "Risk and viability analysis for sustainable development projects.",
+      "bullets": [
+        "Risk and viability analysis for sustainable development projects."
+      ],
+      "body": [
+        "Development finance institutions and impact investors increasingly require rigorous risk and ESG analysis before committing capital.",
+        "Afrimpact delivers independent risk and viability assessments covering political, currency, operational and environmental and social risk.",
+        "Our reports are structured to support investment committee decisions and lender due diligence."
+      ],
+      "highlights": [
+        "ESG and impact screening",
+        "Political and currency risk",
+        "Operational due diligence",
+        "Investment-committee ready reports"
+      ]
+    }
+  ],
+  "news": [
+    {
+      "slug": "afrimpact-consultancy-launched-officially",
+      "title": "Afrimpact Consultancy has been launched officially",
+      "category": "Company News",
+      "is_featured": true,
+      "image": "images/news-launch.jpg",
+      "author": "Lucy Hiddleston",
+      "author_image": "images/author-lucy.jpg",
+      "read_minutes": 4,
+      "likes": 28,
+      "shares": 72,
+      "published_at": "2026-09-30T08:00:00",
+      "excerpt": "Afrimpact Consultancy officially opens its doors in Addis Ababa, offering integrated investment and travel advisory across Africa.",
+      "body": [
+        "Afrimpact Consultancy has officially launched in Addis Ababa, bringing together investment advisory and travel expertise under one roof.",
+        "## A single gateway to Africa",
+        "Investors and travelers often face the same challenges when arriving in a new African market: unfamiliar regulations, fragmented information and the need for trusted local partners. Afrimpact was founded to close that gap.",
+        "Our team offers market entry strategies, regulatory and compliance guidance, stakeholder engagement, tailored itineraries and visa support — all coordinated by one advisor.",
+        "## What comes next",
+        "Over the coming months we will publish sector briefings, destination guides and events designed to help clients make confident decisions. Subscribe to our newsletter to be the first to hear about new opportunities."
+      ],
+      "tags": [
+        "launch",
+        "company"
+      ]
+    },
+    {
+      "slug": "expansion-to-southern-africa",
+      "title": "Expansion of our consultancy services to southern Africa",
+      "category": "Company News",
+      "is_featured": false,
+      "image": "images/news-expansion.jpg",
+      "author": "Lucy Hiddleston",
+      "author_image": "images/author-lucy.jpg",
+      "read_minutes": 4,
+      "likes": 28,
+      "shares": 72,
+      "published_at": "2026-09-29T10:00:00",
+      "excerpt": "We are extending our advisory coverage to southern African markets, starting with partnerships in Zambia and Botswana.",
+      "body": [
+        "Following strong demand from clients, Afrimpact is extending its advisory services to southern Africa.",
+        "## Why southern Africa",
+        "The region offers mature regulatory frameworks, growing renewable-energy pipelines and world-class tourism destinations — a natural fit for our combined investment and travel model.",
+        "We will begin with partner networks in Zambia and Botswana and add further markets through 2027."
+      ],
+      "tags": [
+        "expansion",
+        "southern africa"
+      ]
+    },
+    {
+      "slug": "new-hires-at-afrimpact",
+      "title": "New hires are available at Afrimpact Consultancy Services",
+      "category": "Careers",
+      "is_featured": false,
+      "image": "images/news-hires.jpg",
+      "author": "Lucy Hiddleston",
+      "author_image": "images/author-lucy.jpg",
+      "read_minutes": 4,
+      "likes": 28,
+      "shares": 72,
+      "published_at": "2026-09-28T09:00:00",
+      "excerpt": "We are growing our team of investment analysts and travel advisors. See the open roles and how to apply.",
+      "body": [
+        "Afrimpact is hiring. We are looking for investment analysts, travel advisors and a partnerships lead to join our Addis Ababa office.",
+        "## Open roles",
+        "Investment Analyst — sector research, financial modelling and client reporting.",
+        "Travel Advisor — itinerary design, supplier coordination and visa support.",
+        "Partnerships Lead — building relationships with government bodies, investors and tourism operators.",
+        "Send your CV and a short cover letter to info@afrimpact.com with the role in the subject line."
+      ],
+      "tags": [
+        "careers",
+        "hiring"
+      ]
+    },
+    {
+      "slug": "africa-investment-outlook-2027",
+      "title": "Africa investment outlook: five sectors to watch in 2027",
+      "category": "Insights",
+      "is_featured": false,
+      "image": "images/news-forum.jpg",
+      "author": "Lucy Hiddleston",
+      "author_image": "images/author-lucy.jpg",
+      "read_minutes": 6,
+      "likes": 41,
+      "shares": 90,
+      "published_at": "2026-09-22T09:00:00",
+      "excerpt": "Agro-processing, renewable energy, fintech, logistics and tourism top our list of sectors with the strongest fundamentals.",
+      "body": [
+        "Africa continues to offer some of the world's most compelling long-term growth stories. Here are five sectors our team is watching closely.",
+        "## 1. Agro-processing",
+        "Adding value to raw agricultural output remains one of the largest untapped opportunities on the continent.",
+        "## 2. Renewable energy",
+        "Mini-grids and utility-scale solar are expanding quickly, supported by blended-finance instruments.",
+        "## 3. Fintech",
+        "Mobile money adoption continues to create room for payments, lending and insurance innovation.",
+        "## 4. Logistics",
+        "Trade corridors and the AfCFTA are raising demand for warehousing and cold chain.",
+        "## 5. Tourism",
+        "Eco-tourism and heritage destinations are attracting new visitors and new capital."
+      ],
+      "tags": [
+        "insights",
+        "investment"
+      ]
+    },
+    {
+      "slug": "ethiopia-evisa-guide",
+      "title": "A practical guide to Ethiopia's e-Visa for business travelers",
+      "category": "Travel",
+      "is_featured": false,
+      "image": "images/news-evisa.jpg",
+      "author": "Lucy Hiddleston",
+      "author_image": "images/author-lucy.jpg",
+      "read_minutes": 5,
+      "likes": 19,
+      "shares": 34,
+      "published_at": "2026-09-16T09:00:00",
+      "excerpt": "Everything you need to know before applying — documents, processing times and common mistakes to avoid.",
+      "body": [
+        "Most visitors to Ethiopia can apply for an e-Visa online before travel. Here is what business travelers should know.",
+        "## Documents",
+        "Prepare a passport valid for at least six months, a digital passport photo and, for business visas, an invitation letter from a local host company.",
+        "## Processing time",
+        "Applications are typically processed within a few working days, but we recommend applying at least two weeks before travel.",
+        "## How we help",
+        "Afrimpact reviews your documents, prepares invitation letters for client visits and tracks your application until approval. Always confirm current requirements with official government sources before travel."
+      ],
+      "tags": [
+        "travel",
+        "visa"
+      ]
+    },
+    {
+      "slug": "best-time-to-visit-ethiopia",
+      "title": "When to visit: planning your Ethiopia trip around the seasons",
+      "category": "Travel",
+      "is_featured": false,
+      "image": "images/news-season.jpg",
+      "author": "Lucy Hiddleston",
+      "author_image": "images/author-lucy.jpg",
+      "read_minutes": 5,
+      "likes": 23,
+      "shares": 40,
+      "published_at": "2026-09-10T09:00:00",
+      "excerpt": "From the green season to festival months, here's how to time your visit for the experiences you want.",
+      "body": [
+        "Ethiopia's highland climate is mild year-round, but the seasons shape what you can see and do.",
+        "## October – March",
+        "The dry season is ideal for trekking in the Simien Mountains, visiting the Historic Route and exploring the Danakil Depression.",
+        "## Festivals",
+        "Meskel (late September) and Timkat (January) are spectacular cultural celebrations worth planning around.",
+        "## June – September",
+        "The rainy season turns the highlands lush and green, with fewer visitors and lower prices."
+      ],
+      "tags": [
+        "travel",
+        "seasons"
+      ]
+    },
+    {
+      "slug": "africa-investment-forum-2026-announced",
+      "title": "Registration opens for the Africa Investment Forum in Addis Ababa",
+      "category": "Events",
+      "is_featured": false,
+      "image": "images/event-forum.jpg",
+      "author": "Lucy Hiddleston",
+      "author_image": "images/author-lucy.jpg",
+      "read_minutes": 3,
+      "likes": 16,
+      "shares": 29,
+      "published_at": "2026-09-05T09:00:00",
+      "excerpt": "Our flagship forum returns this October with sector panels, a regulatory clinic and curated investor meetings.",
+      "body": [
+        "Registration is now open for the Africa Investment Forum, taking place on 22 October in Addis Ababa.",
+        "## What to expect",
+        "Sector panels on agro-processing, renewable energy and tourism, a regulatory clinic with investment-promotion officials, and curated one-to-one meetings between investors and local businesses.",
+        "## Reserve your seat",
+        "Seats are limited. Visit the event page to register and add the forum to your calendar."
+      ],
+      "tags": [
+        "events",
+        "investment"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "slug": "africa-investment-forum-addis-2026",
+      "title": "Africa Investment Forum",
+      "subtitle": "Addis Ababa 2026",
+      "image": "images/event-forum.jpg",
+      "location": "Addis Ababa, Ethiopia",
+      "venue": "Skylight Hotel Conference Centre",
+      "start_at": "2026-10-22T09:00:00",
+      "end_at": "2026-10-22T17:00:00",
+      "capacity": 200,
+      "is_featured": true,
+      "excerpt": "A full-day forum connecting international investors with Ethiopian businesses, regulators and development partners.",
+      "body": [
+        "Join investors, business leaders and government representatives for a day of sector briefings, panel discussions and curated one-to-one meetings.",
+        "## Agenda highlights",
+        "Opening keynote on Africa's investment landscape, sector panels on agro-processing, renewable energy and tourism, and a regulatory clinic with investment-promotion officials.",
+        "## Who should attend",
+        "Investors, fund managers, corporate development teams and entrepreneurs seeking partners in East Africa."
+      ]
+    },
+    {
+      "slug": "business-travel-networking-evening",
+      "title": "Business Travel Networking Evening",
+      "subtitle": "Investors & Travelers Meetup",
+      "image": "images/event-networking.jpg",
+      "location": "Addis Ababa, Ethiopia",
+      "venue": "Afrimpact Office, Bole Road",
+      "start_at": "2026-11-06T18:00:00",
+      "end_at": "2026-11-06T21:00:00",
+      "capacity": 60,
+      "is_featured": false,
+      "excerpt": "An informal evening for business travelers, investors and tourism operators to meet and share insights.",
+      "body": [
+        "An informal networking evening bringing together frequent business travelers, investors and tourism operators.",
+        "Enjoy Ethiopian coffee ceremony, light refreshments and short talks on combining business trips with authentic travel experiences."
+      ]
+    },
+    {
+      "slug": "market-entry-workshop",
+      "title": "Market Entry Workshop",
+      "subtitle": "East Africa Edition",
+      "image": "images/event-workshop.jpg",
+      "location": "Online",
+      "venue": "Live webinar",
+      "start_at": "2026-12-03T14:00:00",
+      "end_at": "2026-12-03T16:00:00",
+      "capacity": 500,
+      "is_featured": false,
+      "excerpt": "A practical two-hour workshop on licensing, incentives and partner selection for new market entrants.",
+      "body": [
+        "A practical online workshop covering the essentials of entering East African markets.",
+        "## Topics",
+        "Business registration and investment licensing, tax incentives, choosing and vetting local partners, and common pitfalls to avoid.",
+        "Includes a live Q&A with Afrimpact advisors."
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Boost your product and service's credibility by adding testimonials from your clients. People love recommendations so feedback from others who've tried it is invaluable.",
+      "author": "Hollis & Reed",
+      "order": 1
+    },
+    {
+      "quote": "Boost your product and service's credibility by adding testimonials from your clients.\n\nPeople love recommendations so feedback from others who've tried it is invaluable.",
+      "author": "Hillstreet Industries",
+      "order": 2
+    },
+    {
+      "quote": "Boost your product and service's credibility by adding testimonials from your clients. People love recommendations so feedback from others who've tried it is invaluable.",
+      "author": "Studio Rallia",
+      "order": 3
+    }
+  ],
+  "clients": [
+    {
+      "name": "Partner Hotel",
+      "logo": "images/clients/client-1.svg",
+      "order": 1
+    },
+    {
+      "name": "Mogzit",
+      "logo": "images/clients/client-2.svg",
+      "order": 2
+    },
+    {
+      "name": "SkillUp the Youth",
+      "logo": "images/clients/client-3.svg",
+      "order": 3
+    }
+  ]
+}

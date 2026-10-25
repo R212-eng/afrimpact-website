@@ -1,0 +1,37 @@
+# Local / single-server stack:  cp backend/.env.example backend/.env  &&  docker compose up -d --build
+# Website http://localhost:8080 · Admin http://localhost:8080/admin · API docs http://localhost:8000/api/docs
+services:
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-afrimpact}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-afrimpact}
+      POSTGRES_DB: ${POSTGRES_DB:-afrimpact}
+    volumes: [pgdata:/var/lib/postgresql/data]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-afrimpact}"]
+      interval: 5s
+      retries: 10
+
+  backend:
+    build: ./backend
+    restart: unless-stopped
+    env_file: ./backend/.env          # all app settings (SMTP, admin, SITE_URL ...)
+    environment:                      # container-specific overrides
+      DATABASE_URL: postgresql+psycopg://${POSTGRES_USER:-afrimpact}:${POSTGRES_PASSWORD:-afrimpact}@db:5432/${POSTGRES_DB:-afrimpact}
+      UPLOAD_DIR: /app/uploads
+    volumes: [uploads:/app/uploads]
+    depends_on:
+      db: { condition: service_healthy }
+    ports: ["127.0.0.1:8000:8000"]
+
+  frontend:
+    build: { context: ., dockerfile: frontend/Dockerfile }
+    restart: unless-stopped
+    depends_on: [backend]
+    ports: ["${WEB_PORT:-8080}:80"]
+
+volumes:
+  pgdata:
+  uploads:
