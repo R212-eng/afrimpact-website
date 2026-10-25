@@ -8,6 +8,13 @@ import { LogoWordmark } from '../components/Logo'
 import { ErrorState, Skeleton } from '../components/States'
 import { formatDate, img, useDocumentTitle, useFetch } from '../lib/utils'
 
+
+const clientLinks = [
+  "https://ethiopianchamber.com/",
+  "https://www.mogzit.com/",
+  "https://skilluptheyouth.org/"
+];
+
 /* Home page — follows the Figma "Home" frame section by section. */
 export default function Home() {
   useDocumentTitle(null)
@@ -73,9 +80,31 @@ export default function Home() {
         <div className="home-clients__col">
           <h2>Clients</h2>
           <div className="home-clients__logos">
-            {(data?.clients || []).map((c, i) => (
-              <img key={c.id} src={img(c.logo)} alt={c.name} className={`client-logo client-logo--${i + 1}`} />
-            ))}
+            {(data?.clients || []).map((c, i) => {
+              const link = clientLinks[i];
+              const logoElement = (
+                <img 
+                  key={c.id} 
+                  src={img(c.logo)} 
+                  alt={c.name} 
+                  className={`client-logo client-logo--${i + 1}`} 
+                />
+              );
+
+              return link ? (
+                <a 
+                  key={c.id} 
+                  href={link} 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  style={{ display: 'inline-block' }}
+                >
+                  {logoElement}
+                </a>
+              ) : (
+                logoElement
+              );
+            })}
           </div>
         </div>
         <div className="home-clients__col">
