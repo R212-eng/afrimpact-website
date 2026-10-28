@@ -281,7 +281,12 @@ a.contact__link:hover { text-decoration: underline; }
     position: absolute; top: 100%; left: 0; right: 0; flex-direction: column; gap: 0; background: #fff; box-shadow: var(--shadow-lg);
     padding: 10px 20px 20px; display: none;
   }
-  .site-nav.is-open { display: flex; animation: fade .2s; z-index: 50; }
+  .site-nav.is-open { 
+  display: flex; 
+  animation: fade .2s; 
+  z-index: 9999; 
+}
+  /* .site-nav.is-open { display: flex; animation: fade .2s; z-index: 50; } */
   .site-nav__item { height: 52px; border-bottom: 1px solid #f1f1f1; border-radius: 0; }
   .site-nav__item::after { display: none; }
   .ticker { justify-content: flex-start; padding: 0 16px; gap: 12px; }
